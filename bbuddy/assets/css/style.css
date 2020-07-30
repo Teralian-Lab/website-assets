@@ -1,0 +1,1470 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600;700;800;900&display=swap');
+
+@font-face {
+
+    font-family: 'AvenirLTStd-Black';
+
+    src: url('../fonts/AvenirLTStd-Black.woff2') format('woff2'),
+
+        url('../fonts/AvenirLTStd-Black.woff') format('woff');
+
+    font-weight: 900;
+
+    font-style: normal;
+
+    font-display: swap;
+
+}
+
+@font-face {
+
+    font-family: 'AvenirLTStd-Heavy';
+
+    src: url('../fonts/AvenirLTStd-Heavy.woff2') format('woff2'),
+
+        url('../fonts/AvenirLTStd-Heavy.woff') format('woff');
+
+    font-weight: 900;
+
+    font-style: normal;
+
+    font-display: swap;
+
+}
+
+@font-face {
+
+    font-family: 'AvenirLTStd-Roman';
+
+    src: url('../fonts/AvenirLTStd-Roman.woff2') format('woff2'),
+
+        url('../fonts/AvenirLTStd-Roman.woff') format('woff');
+
+    font-weight: normal;
+
+    font-style: normal;
+
+    font-display: swap;
+
+}
+
+@font-face {
+
+    font-family: 'AvenirLTStd-Light';
+
+    src: url('../fonts/AvenirLTStd-Light.woff2') format('woff2'),
+
+        url('../fonts/AvenirLTStd-Light.woff') format('woff');
+
+    font-weight: 300;
+
+    font-style: normal;
+
+    font-display: swap;
+
+}
+
+@font-face {
+
+    font-family: 'AvenirLTStd-Medium';
+
+    src: url('../fonts/AvenirLTStd-Medium.woff2') format('woff2'),
+
+        url('../fonts/AvenirLTStd-Medium.woff') format('woff');
+
+    font-weight: 500;
+
+    font-style: normal;
+
+    font-display: swap;
+
+}
+
+@font-face {
+
+    font-family: 'AvenirLTStd-Book';
+
+    src: url('../fonts/AvenirLTStd-Book.woff2') format('woff2'),
+
+        url('../fonts/AvenirLTStd-Book.woff') format('woff');
+
+    font-weight: normal;
+
+    font-style: normal;
+
+    font-display: swap;
+
+}
+
+/* CSS Document */
+
+html{
+
+    margin:0;
+
+    padding:0;
+
+}
+
+body{
+
+    margin:0;
+
+    padding:0;
+
+    background:#fff none repeat scroll 0 0;
+
+    font-family: 'AvenirLTStd-Roman';
+
+    color:#494949;
+
+    font-weight: 500;
+
+}
+
+html {
+
+  position: relative;
+
+  min-height: 100%;
+
+}
+
+li,ul{
+
+    list-style: none;
+
+    margin : 0px;
+
+    padding: 0px;
+
+}
+
+a{
+
+    outline: none !important;
+
+    text-decoration: none !important;
+
+}
+
+input{
+
+    outline: none !important;
+
+    text-decoration: none !important;
+
+}
+
+i{
+
+    vertical-align: middle;
+
+}
+
+/* all */
+
+::-webkit-input-placeholder { color:#b9b9b9 !important; }
+
+::-moz-placeholder { color:#b9b9b9 !important; } /* firefox 19+ */
+
+:-ms-input-placeholder { color:#b9b9b9 !important; } /* ie */
+
+input:-moz-placeholder { color:#b9b9b9 !important; }
+
+button,label,a{
+
+    outline: none !important;
+
+}
+
+input[type=number]::-webkit-outer-spin-button,
+
+input[type=number]::-webkit-inner-spin-button {
+
+    -webkit-appearance: none;
+
+    margin: 0;
+
+}
+
+
+
+input[type=number] {
+
+    -moz-appearance:textfield;
+
+}
+
+/*To Stop Sceen Rotation*/
+
+
+
+* {
+
+    -webkit-overflow-scrolling: touch;
+
+}
+
+
+
+.container {
+
+    max-width: 990px;
+
+}
+
+.attentionWrap{
+
+    background: #01273F;
+
+    padding: 20px 15px;
+
+}
+
+.attentionWrap p{
+
+    font-size: 16px;
+
+    color: #fff;
+
+    font-family: 'AvenirLTStd-Heavy';
+
+    margin: 0;
+
+}
+
+.attentionWrap p span{
+
+    color: #FFE000;
+
+}
+
+section.testimonial h3 {
+
+    font-size: 35px;
+
+    color: #fff;
+
+    font-family: 'Nunito', sans-serif;
+
+    font-weight: 700;
+
+    margin-bottom: 20px;
+
+}
+
+.tesItem {
+
+    display: flex;
+
+    padding: 0px 100px;
+
+    align-items: flex-start
+
+}
+
+.tesItem > img {
+
+    flex: 10% 0;
+
+    width: 10%;
+
+    border: 2px solid #fff;
+
+    border-radius: 50%;
+
+}
+.tesInfo img {
+    width: 100px;
+    float: right;
+}
+ 
+
+.tesInfo {
+
+    background: rgba(255, 255, 255, 0.7);
+
+    padding: 35px 50px 25px;
+
+    flex: 70% 0;
+
+    width: 70%;
+
+    margin-left: 75px;
+
+    border-radius: 0px 37px 37px 37px;
+
+    position: relative;
+
+    text-align: left;
+
+}
+
+.tesInfo::before {
+
+    position: absolute;
+
+    left: -81px;
+
+    top: 0px;
+
+    content: "";
+
+    background: url(../../images/lander/t-arrow.png);
+
+    width: 81px;
+
+    height: 100px;
+
+}
+
+.tesInfo strong {
+
+    font-weight: normal;
+
+}
+
+.carousel .carousel-inner {
+
+    padding: 40px 0px;
+
+}
+
+span.exclamatoryLeft {
+
+    position: absolute;
+
+    font-size: 132px;
+
+    top: -68px;
+
+    left: 50px;
+
+    font-weight: 700;
+
+    color: #7EE058;
+
+}
+
+span.exclamatoryRight {
+
+    position: absolute;
+
+    font-size: 132px;
+
+    bottom: -125px;
+
+    right: 50px;
+
+    font-weight: 700;
+
+    color: #7EE058;
+
+}
+
+.tesItemRight .tesInfo {
+
+    background: rgba(255, 255, 255, 0.7);
+
+    padding: 35px 50px 25px;
+
+    flex: 70% 0;
+
+    width: 70%;
+
+    margin-right: 75px;
+
+    border-radius: 37px 0px 37px 37px;
+
+    position: relative;
+
+}
+
+.tesItemRight .tesInfo {
+
+     margin-left: 0px;
+
+}
+
+.tesItemRight .tesInfo::before {
+
+    display: none;
+
+}
+
+.tesItemRight .tesInfo::after {
+
+    position: absolute;
+
+    right: -80px;
+
+    top: 0px;
+
+    content: "";
+
+    background: url(../../images/lander/t-arrow.png);
+
+    width: 80px;
+
+    height: 100px;
+
+    transform: rotateY(181deg);
+
+}
+
+.tesItemRight span.exclamatoryLeft,
+
+.tesItemRight span.exclamatoryRight {
+
+    color: #FFE000;
+
+}
+
+.tesItem.tesItemRight {
+
+    margin-top: 65px;
+
+}
+
+a.carousel-control-prev, a.carousel-control-next {
+
+    font-size: 43px;
+
+    color: #ffffff !important;
+
+    opacity: 0.5;
+
+    width: 2%;
+
+    position: absolute;
+
+    bottom: 0;
+
+    height: 24px;
+
+    top: auto;
+
+    z-index: 99;
+
+}
+
+a.carousel-control-prev {
+
+    left: 30%;
+
+    bottom: -35px;
+
+} 
+
+a.carousel-control-next{
+
+    right: 30%;
+
+    bottom: -35px;
+
+}
+
+.carousel {
+
+    position: relative;
+
+    margin-bottom: 75px;
+
+}
+
+.carousel-indicators li {
+
+    border: 1px solid #5b5b5b;
+
+    width: 12px;
+
+    height: 12px;
+
+    border-radius: 50%;
+
+    background: #fff;
+
+}
+
+.carousel-indicators li.active {
+
+    background: #fff;
+
+}
+
+ul.carousel-indicators {
+
+    bottom: -30px;
+
+}
+
+.faqWrap {
+
+    background: #f1f4f9;
+
+    padding: 50px 0px;
+
+}
+
+.faqWrap h3 {
+
+    font-size: 33px;
+
+    color: #01273F;
+
+    font-family: 'Nunito', sans-serif;
+
+    font-weight: 800;
+
+    margin-bottom: 40px;
+
+}
+
+.faqWrap .card {
+
+    border: none;
+
+    border-radius: 0;
+
+    margin-bottom: 25px
+
+}
+
+.faqWrap .card-header button {
+
+    width: 100%;
+
+    text-align: left;
+
+    font-size: 25px;
+
+    color: #000;
+
+    text-decoration: none !important;
+
+    font-family: 'Nunito', sans-serif;
+
+    font-weight: 700;
+
+}
+
+.faqWrap .card-header button i.fa {
+
+    float: right;
+
+    color: #00A841;
+
+    font-size: 25px;
+
+    margin-top: 5px;
+
+}
+
+.faqWrap .card-header{
+
+    background: #fff;
+
+    border-radius: 0;
+
+    border: none;
+
+    margin-bottom: 15px;
+
+}
+
+.footerWrap{
+
+    padding: 50px 0px;
+
+}
+
+.buyButton {
+
+    background: #FFE000;
+
+    border: 1px solid #FFBC00;
+
+    color: #01273F;
+
+    padding: 10px 64px;
+
+    border-radius: 32px;
+
+    font-size: 20px;
+
+    display: inline-block;
+
+    font-weight: 700;
+
+    font-family: 'Nunito', sans-serif;
+
+}
+
+.buyButton:hover {
+
+    background: #FFBC00;
+
+    border: 1px solid #FFBC00;
+
+    color: #01273F;
+
+}
+
+.headerBannerWrap {
+
+    background: #f1f4f9;
+
+}
+
+.headerBannerBg {
+
+    background: url('../../images/lander/barxbuddy-header.png');
+
+    background-size: 47%;
+
+    background-repeat: no-repeat;
+
+    background-position: 0px 155px;
+
+}
+
+.footerWrap hr {
+
+    border-color: #00A841;
+
+    border-width: 2px;
+
+}
+
+.footerItem {
+
+    display: flex;
+
+}
+
+.footerItem i {
+
+    font-size: 30px;
+
+    color: #7EE058;
+
+    margin-right: 14px;
+
+}
+
+.footerItem h4 {
+
+    font-size: 18px;
+
+    font-weight: 700;
+
+    color: #01273F;
+
+}
+
+.footerBottom{
+
+    background: #F1F4F8;
+
+    padding: 50px 0px;
+
+}
+
+section.footerBottom p {
+
+    margin: 0;
+
+    text-align: center;
+
+}
+
+.faqWrap .card-body p {
+
+    border-top: 2px solid #00a841;
+
+    padding: 20px 50px 0px;
+
+}
+
+.checkoutHeaderWrap{
+
+    background: #01273F;
+
+}
+
+
+
+
+
+.headerBannerContent h3 {
+
+    font-size: 64px;
+
+    font-family: 'Nunito', sans-serif;
+
+    font-weight: 800;
+
+    margin: 90px 0px 35px;
+
+    color: #01273F;
+
+    line-height: 65px;
+
+}
+
+.headerBannerContent h6 {
+
+    font-size: 25px;
+
+    color: #0DA84B;
+
+    font-family: 'AvenirLTStd-Medium';
+
+}
+
+.puts {
+
+    border-left: 1.5px solid #01273F;
+
+    margin: 45px 0px 45px 165px;
+
+    padding-left: 25px;
+
+}
+
+.puts p {
+
+    font-size: 25px;
+
+    line-height: 25px;
+
+    font-family: 'AvenirLTStd-Heavy';
+
+}
+
+.puts li {
+
+    font-size: 25px;
+
+    line-height: 40px;
+
+    display: flex;
+
+    align-items: center;
+
+}
+
+.puts li img {
+
+    position: relative;
+
+    margin-right: 10px;
+
+    top: -5px;
+
+}
+
+.putsItem {
+
+    width: 470px;
+
+    text-align: center;
+
+    margin-left: 165px;
+
+    margin-bottom: 40px;
+
+}
+
+.putsItem a {
+
+    display: block;
+
+    margin-bottom: 10px;
+
+}
+
+.putsItem p {
+
+    font-size: 14px;
+
+    color: #01273F;
+
+    font-family: 'AvenirLTStd-Roman';
+
+}
+
+section.behaviorWrap {
+
+    margin: 50px 0px 40px;
+
+}
+
+
+
+section.behaviorWrap {
+
+    margin: 50px 0px 40px;
+
+}
+
+.behaviorWrap h3 {
+
+    font-size: 25px;
+
+    color: #0DA84B;
+
+    font-family: 'Nunito', sans-serif;
+
+    font-weight: 800;
+
+    margin-bottom: 15px;
+
+}
+
+.behaviorWrap p{
+
+    font-size: 20px;
+
+    font-family: 'AvenirLTStd-Roman';
+
+}
+
+section.UnwantedBehaviours {
+
+    text-align: center;
+
+    padding: 50px 0px;
+
+    background: #f1f4f9;
+
+}
+
+.UnwantedBehaviours h3 {
+
+    font-size: 35px;
+
+    color: #01273F;
+
+    font-family: 'Nunito', sans-serif;
+
+    font-weight: 800;
+
+}
+
+.Behaviours span {
+
+    width: 175px;
+
+    height: 175px;
+
+    display: flex;
+
+    margin: 0 auto;
+
+    background: #fff;
+
+    border-radius: 50%;
+
+    justify-content: center;
+
+    align-items: center;
+
+}
+
+.Behaviours {
+
+    margin-top: 25px;
+
+}
+
+.Behaviours p {
+
+    color: #0DA84B;
+
+    font-family: 'Nunito', sans-serif;
+
+    font-weight: 800;
+
+    font-size: 25px;
+
+    margin-top: 15px;
+
+}
+
+
+
+.step1{
+
+    background: url('../../images/lander/step1.png');
+
+    background-repeat: no-repeat;
+
+    padding: 90px;
+
+    text-align: center;
+
+    background-size: cover;
+
+    background-position: center;
+
+}
+
+.step2 {
+
+    background: url(../../images/lander/step2.png);
+
+    background-repeat: no-repeat;
+
+    padding: 90px;
+
+    text-align: center;
+
+    background-size: cover;
+
+    background-position: center;
+
+    border-left: 5px solid #fff;
+
+    box-sizing: border-box;
+
+    border-right: 5px solid #fff;
+
+}
+
+.step3{
+
+    background: url('../../images/lander/step3.png');
+
+    background-repeat: no-repeat;
+
+    padding: 90px;
+
+    text-align: center;
+
+    background-size: cover;
+
+    background-position: center;
+
+}
+
+section.stepWrap span {
+
+    width: 75px;
+
+    height: 75px;
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+    margin: 0 auto;
+
+    background: #ffe001;
+
+    border-radius: 50%;
+
+    font-size: 35px;
+
+    font-family: 'Nunito', sans-serif;
+
+    font-weight: 800;
+
+    color: #01273F;
+
+}
+
+section.stepWrap p {
+
+    font-size: 16px;
+
+    color: #fff;
+
+    font-family: 'AvenirLTStd-Black';
+
+}
+
+
+
+.trainingWrap{
+
+    background: #f1f4f9;
+
+}
+
+.trainingContent{
+
+    position: relative;
+
+    z-index: 1;
+
+}
+
+.trainingContent h3{
+
+    font-size: 33px;
+
+    color: #01273F;
+
+    font-family: 'Nunito', sans-serif;
+
+    font-weight: 800;
+
+}
+
+.trainingContent p{
+
+    font-size: 20px;
+
+    font-family: 'AvenirLTStd-Roman';
+
+}
+
+.trainingContent p {
+
+    font-size: 20px;
+
+    font-family: 'AvenirLTStd-Roman';
+
+    margin: 18px 0px 40px 0px;
+
+}
+.trainingWrap {
+    background: #f1f4f9;
+    padding: 100px 0px;
+    position: relative;
+    overflow: hidden;
+    min-height: 440px;
+}
+.faqWrap .card-body {
+
+    padding-top: 0px;
+
+}
+
+section.trainingWrap::before {
+
+    background: url(../../images/lander/siren.png);
+
+    background-repeat: no-repeat;
+
+    text-align: center;
+
+    background-size: 55%;
+
+    background-position: center;
+
+    content: "";
+
+    position: absolute;
+
+    width: 100%;
+
+    height: 100%;
+
+    top: 0;
+
+    left: -560px;
+
+}
+
+section.trainingWrap::after {
+
+    background: url(../../images/lander/aggressive-dog.png);
+
+    background-repeat: no-repeat;
+
+    text-align: center;
+
+    background-size: 17%;
+
+    background-position: right;
+
+    content: "";
+
+    position: absolute;
+
+    width: 100%;
+
+    height: 100%;
+
+    top: 10px;
+
+    right: 8%;
+
+}
+
+section.FeaturesWrap {
+
+    padding: 45px 0px;
+
+}
+
+section.FeaturesWrap h3 {
+
+    text-align: center;
+
+    font-size: 35px;
+
+    color: #01273F;
+
+    font-family: 'Nunito', sans-serif;
+
+    font-weight: 800;
+
+    margin-bottom: 50px;
+
+}
+
+.FeaturesList {
+
+    display: flex;
+
+    align-items: start;
+
+}
+
+.FeaturesList span {
+
+    background: #f3f3fb;
+
+    width: 50px;
+
+    height: 50px;
+
+    border-radius: 50%;
+
+    flex: 50px 0;
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+    margin-right: 15px;
+
+}
+
+.FeaturerContent {
+
+    flex: 80% 0;
+
+    width: 80%;
+
+
+
+}
+
+.FeaturerContent h4{
+
+    font-size: 25px;
+
+    color: #01273F;
+
+    font-family: 'Nunito', sans-serif;
+
+    font-weight: 800;
+
+}
+
+.FeaturerContent p{
+
+    font-size: 16px;
+
+    font-family: 'AvenirLTStd-Roman';
+
+}
+
+
+
+.testimonial{
+
+    background: url('../../images/lander/testimonial.png');
+
+    background-repeat: no-repeat;
+
+    padding:40px 0px 15px;
+
+    text-align: center;
+
+    background-size: cover;
+
+
+
+}
+
+section.dogOwnersWrap {
+
+    padding: 80px 0px 70px;
+
+}
+
+.tesInfo p {
+
+    font-size: 16px;
+
+    color: #343434;
+
+    font-family: 'AvenirLTStd-Roman';
+
+}
+
+.tesInfo strong {
+
+    color: #01273F;
+
+    font-size: 16px;
+
+    font-family: 'AvenirLTStd-Heavy';
+
+}
+
+.dogOwnersContent  h3{
+
+    font-size: 33px;
+
+    color: #01273F;
+
+    font-family: 'Nunito', sans-serif;
+
+    font-weight: 800;
+
+    margin-bottom: 30px
+
+}
+
+.dogOwnersContent p {
+
+    font-size: 16px;
+
+    font-family: 'AvenirLTStd-Roman';
+
+}
+
+.dogOwnersContent .buyButton {
+
+    display: block;
+
+    text-align: center;
+
+    margin-top: 35px;
+
+    margin-top: 35px;
+
+}
+
+section.orderNowWrap {
+
+    background: #f1f4f9;
+
+    padding: 35px 0px 0px;
+
+}
+
+.orderNowWrap h3 {
+
+    font-size: 35px;
+
+    color: #0DA84B;
+
+    font-family: 'Nunito', sans-serif;
+
+    font-weight: 800;
+
+    margin-bottom: 20px;
+
+}
+
+.orderNowContent h4 {
+
+    font-size: 25px;
+
+    color: #01273F;
+
+    font-family: 'Nunito', sans-serif;
+
+    font-weight: 800;
+
+    border-left: 2px solid #01273F;
+
+    padding-left: 10px;
+
+    margin-bottom: 20px;
+
+}
+
+.orderNowContent h4 b {
+
+    color: #0DA84B;
+
+}
+
+.orderNowContent h4 span{
+
+    display: inline-block;
+
+    position: relative
+
+}
+
+.orderNowContent h4 span::after {
+
+    background: #01273F;
+
+    content: "";
+
+    position: absolute;
+
+    left: 3px;
+
+    top: 13px;
+
+    height: 2px;
+
+    width: 110%;
+
+    transform: rotate(-21deg);
+
+}
+
+.orderNowContent p {
+
+    font-size: 19px;
+
+    font-family: 'AvenirLTStd-Roman';
+
+}
+
+.orderNowContent {
+
+    margin-bottom: 25px;
+
+}
+
+section.orderNowWrap img {
+
+    position: absolute;
+
+    width: 280px;
+
+    top: -99px;
+
+}
+
+section.guaranteeWrap {
+
+    margin: 50px 0px;
+
+}
+
+.guaranteeWrap h3 {
+
+    font-size: 33px;
+
+    color: #01273F;
+
+    font-family: 'Nunito', sans-serif;
+
+    font-weight: 800;
+
+    margin-bottom: 30px;
+
+}
+
+.guaranteeWrap > p {
+
+    font-size: 20px;
+
+    font-family: 'AvenirLTStd-Roman';
+
+}
+
+.guaranteeContent .putsItem {
+
+    margin: 0;
+
+}
+
+.guaranteeWrap .col-md-5 img {
+
+    margin-top: 50px;
+
+}
+
+.btn.focus, .btn:focus {
+
+    outline: 0;
+
+    box-shadow: none;
+
+}
+
+.footerWrap .putsItem {
+
+    margin: 0 auto;
+
+    padding: 0;
+
+    width: 380px;
+
+}
+
+.footerLink a {
+
+    font-size: 20px;
+
+    color: #01273F;
+
+    font-family: 'Nunito', sans-serif;
+
+    font-weight: 800;
+
+}
+
+.footerLink {
+
+    margin-top: 35px;
+
+}
+
+
+
+.Behaviours:hover img{
+
+    animation: shake 10.82s cubic-bezier(.36, .07, .19, .97) both infinite;
+
+      transform: translate3d(0, 0, 0);
+
+      backface-visibility: hidden;
+
+      perspective: 1000px;
+
+}
+
+@keyframes shake {
+
+  .76%, 6.84% {transform: translate3d(-1px, 0, 0)}
+
+  1.52%, 6.08% {transform: translate3d(2px, 0, 0)}
+
+  2.28%, 3.8%, 5.32% {transform: translate3d(-4px, 0, 0)}
+
+  3.04%, 4.56% {transform: translate3d(4px, 0, 0)}
+
+}
+
+.faqWrap .card-body a {
+
+    color: #0da84b;
+
+}
+
+.mobileView{
+
+    display: none;
+
+}
